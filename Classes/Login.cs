@@ -7,7 +7,7 @@ namespace Projeto_de_Produtos.Classes
     {
         private bool logado = false;
 
-        private bool sair = false;
+        private bool saido = false;
 
         private string escolha;
 
@@ -187,7 +187,7 @@ namespace Projeto_de_Produtos.Classes
                         if (escolha == "s")
                         {
                             Console.WriteLine("Obrigado por escolher nosso site, até uma próxima.");
-                            sair = true;
+                            saido = true;
                         }
                         break;
 

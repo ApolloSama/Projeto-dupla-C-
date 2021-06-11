@@ -1,13 +1,18 @@
+using Projeto_de_Produtos.Classes;
+
 namespace Projeto_de_Produtos.Interfaces
 {
     public interface iUsuario
     {
-         public string Cadastrar(){
-             return "";
-         }
 
-         public string Deletar(){
-             return "";
-         }
+        string Cadastrar(Usuario novoUsuario)
+        {
+            return "Usuário cadastrado" + novoUsuario;
+        }
+
+        string Deletar()
+        {
+            return "Usuário deletado";
+        }
     }
 }
